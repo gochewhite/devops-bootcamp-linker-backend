@@ -12,6 +12,9 @@ async function bootstrap() {
     origin: process.env.FRONTEND_ORIGIN?.split(",") || [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "http://localhost:51480",
+    "https://whiteobah.space",
+    "http://localhost:4000"
     ],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
     allowedHeaders: "Content-Type, Authorization",
