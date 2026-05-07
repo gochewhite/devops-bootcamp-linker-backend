@@ -13,6 +13,8 @@ on:
 env:
   DOCKER_REPO: whiteobah
   IMAGE_NAME: whiteobah/linker-backend
+  BACKEND_DIR: .
+  BACKEND_PORT: 3001
   
 jobs:
   build-scan-push:
